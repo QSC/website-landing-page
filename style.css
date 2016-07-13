@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****************************************
+	
+    *Author			PickArt Studio
+	*Website		www.pickartstudio.com
+		
+ *****************************************/
+/*
+	TABLE OF CONTENTS
+	---------------------------
+	 01. Header
+	 02. Menu
+	 03. Slider
+	 04. About Us
+	 05. Services
+	 06. Team
+	 07. Subscribe
+	 08. Google Maps
+	 09. Contact
+	 10. Footer
+	
+ **  *************************************** **/
+
+
+/*===Body===*/
+
+body {background:#f5f5f5;font-family: 'Titillium Web', sans-serif;letter-spacing:0.5px;}
+.xpose {color:#e44124;}
+.semibold {font-weight:600;}
+.bold {font-weight:700;}
+.xpose-red {color:#e44124;}
+
+/*===01.Header===*/
+
+.xpose-header {width:100%;height:130px;background:#fff;}
+.xpose-header h1 {float:left;font-size:24px;color:#2b3243;font-weight:600;margin:0;}
+.description {float:left;font-size:14px;color:#2b3243;}
+
+.headername {width:300px;height:130px;float:left;padding-top:42px;}
+
+.xpose-logo {width:72px;height:130px;padding-top:30px;float:left;margin-right:30px;}
+.logo {
+	height: 72px;
+	width: 72px;
+}
+.footer-logo {
+	height: 60px;
+	width: 60px;
+}
+
+/*===02.Menu===*/
+
+.xpose-menu {float:right;padding-top:54px;}
+.xpose-menu ul {margin:0;padding:0;list-style:none;}
+.xpose-menu li {display:inline;}
+.xpose-menu li a {font-size:16px;color:#2a3141;padding-left:30px;text-decoration:none;}
+.xpose-menu li a:hover {color:#ec232a;}
+
+/*===02.1.Menu===*/
+
+.responsive-xpose-menu {float:right;padding-top:54px;display:none}
+.responsive-xpose-menu ul {margin:0;padding:0;list-style:none;}
+.responsive-xpose-menu li {display:inline;}
+.responsive-xpose-menu li a {font-size:16px;color:#2a3141;padding-left:30px;text-decoration:none;}
+.responsive-xpose-menu li a:hover {color:#ec232a;}
+
+/*===03.Slider===*/
+.xpose-slider {width:100%;height:520px;background:url(images/bg.jpg) no-repeat center;position:relative;background-size:cover;text-align:center;color:#fff;text-transform:uppercase;}
+.xpose-slider p {font-size:18px;margin:0;font-weight:600;padding-top:85px;}
+.xpose-slider h2 {font-size:38px;margin:0;font-weight:600;}
+.btn-subscribenow {background:#e44124;color:#fff;border-radius:30px;font-size:15px;font-weight:600;padding:7px 20px;margin:25px 0px;}
+.btn-subscribenow:hover {color:#fff;}
+
+.xpose-countdown {
+	width:920px;
+	height:260px;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	overflow:hidden;
+	}
+.xpose-days {
+	width:540px;
+	height:260px;
+	background:#fff;
+	float:left;
+	z-index:1000;
+	position:relative;
+	font-size:115px;
+	color:#e44124;
+	font-weight:600;
+	padding-top:30px;
+}
+.xpose-hours {
+	width:190px;
+	height:170px;
+	margin-top:90px;
+	background:#fff;
+	float:left;
+	font-size:75px;
+	color:#2b3243;
+	font-weight:600;
+	padding-top:18px;
+	-webkit-box-shadow: inset -16px -7px 5px -12px rgba(0,0,0,0.04);
+	-moz-box-shadow: inset -16px -7px 5px -12px rgba(0,0,0,0.04);
+	box-shadow: inset -16px -7px 5px -12px rgba(0,0,0,0.04);
+}
+.xpose-minutes {
+	width:190px;
+	height:170px;
+	margin-top:90px;
+	background:#fff;
+	float:left;
+	font-size:75px;
+	color:#2b3243;
+	font-weight:600;
+	padding-top:18px;
+	-webkit-box-shadow: inset 16px -7px 5px -12px rgba(0,0,0,0.04);
+	-moz-box-shadow: inset 16px -7px 5px -12px rgba(0,0,0,0.04);
+	box-shadow: inset 16px -7px 5px -12px rgba(0,0,0,0.04);
+}
+.xpose-seconds {
+	width:160px;
+	height:34px;
+	background:#171c3f;
+	border-radius: 0px 20px 0px 20px;
+	position:absolute;
+	bottom:-17px;
+	left:50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	padding-top:7px;
+}
+
+.xdays {float:left;width:100%;margin-top:-20px;font-size:23px;color:#2b3243;}
+.xhours-minutes {color:#2b3243;font-size:18px;float:left;width:100%;margin-top:-15px;}
+
+/*===04.About Us===*/
+.xpose-about {width:100%;height:600px;background:#f8f8f8;}
+/*===Title-Left===*/
+.xpose-title-left {height:140px;font-size:132px;position:relative;margin-top:100px;}
+.xpose-title-left h3 {
+	font-size:50px;
+	color:#2b3243;
+	text-transform:uppercase;
+	position:absolute;
+	bottom:20px;
+	left:35px;
+	z-index:2;
+}
+.title-description-left {
+	font-size:14px;
+	position:absolute;
+	left:35px;
+	bottom:10px;
+	z-index:2;
+}
+.title-left {
+	text-transform:uppercase;
+	color:#f1f1f1;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor:default;
+    user-select: none;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+/*===Title-Right===*/
+.xpose-title-right {height:140px;font-size:132px;position:relative;margin-top:100px;}
+.xpose-title-right h3 {
+	font-size:50px;
+	color:#2b3243;
+	text-transform:uppercase;
+	position:absolute;
+	bottom:20px;
+	right:35px;
+	z-index:2;
+}
+.title-description-right {
+	font-size:14px;
+	position:absolute;
+	right:35px;
+	bottom:10px;
+	z-index:2;
+}
+.title-right {
+	text-transform:uppercase;
+	color:#f1f1f1;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor:default;
+    user-select: none;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+/*===Title-Middle===*/
+.xpose-title-middle {height:140px;font-size:132px;position:relative;margin-top:30px;text-align:center;}
+.xpose-title-middle h3 {
+	font-size:50px;
+	color:#2b3243;
+	text-transform:uppercase;
+	position:absolute;
+	bottom:-20px;
+	left:50%;
+	z-index:2;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.title-description-middle {
+	font-size:14px;
+	position:absolute;
+	left:50%;
+	bottom:-30px;
+	z-index:2;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.title-middle {
+	text-transform:uppercase;
+	color:#f1f1f1;
+	margin-top:-100px;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor:default;
+    user-select: none;
+}
+
+.xpose-abouttext {
+	margin-left:5px;
+	margin-top:30px;
+}
+.xpose-abouttext p {margin-bottom:15px;}
+
+.xpose-ab {height:600px;position:relative;overflow:hidden;}
+.xpose-rocket {
+	width:336px;
+	height:535px;
+	position:absolute;bottom:0;right:0;
+	background:url(images/rocket_opacity.png) no-repeat right bottom;
+}
+.rocket {float:right;margin-top:40px;}
+
+
+/*===05.Services===*/
+.xpose-services {width:100%;height:270px;background:#2b3243;color:#fff;text-align:center;}
+.service {padding-top:64px;}
+.service h4 {
+	font-size:24px;
+	font-weight:600;
+}
+.service p {font-size:14px;}
+.service i {font-size:64px;}
+
+.servicered {
+	background:#e44124;
+	height:270px;
+	-ms-transform: skew(-10deg,0deg); /* IE 9 */
+    -webkit-transform: skew(-10deg,0deg); /* Safari */
+    transform: skew(-10deg,0deg); /* Standard syntax */
+   }
+.xpose-midservice {
+	-ms-transform: skew(-10deg,0deg); /* IE 9 */
+    -webkit-transform: skew(-10deg,0deg); /* Safari */
+    transform: skew(10deg,0deg); /* Standard syntax */
+}   
+
+
+/*===06.Team===*/
+.xpose-team {width:100%;height:850px;background:#ffffff url(images/clouds.png) center bottom no-repeat;}
+.x-team-members {overflow:hidden;}
+.xpose-team-member {
+	text-align:center;
+	color:#2b3243;
+	margin-top:70px;
+}
+.xpose-team-member h5 {font-size:26px;margin:0;padding-top:30px;}
+.team-position {float:left;width:100%;font-size:15px;}
+
+.btn-social {width:36px;height:36px;border-radius:50px;padding-left:11px;margin-left:5px;margin-right:5px;margin-top:30px;}
+
+.btn-facebook {background:#0c95d4;color:#fff;font-size:16px;}
+.btn-facebook:hover {background:#19a6e7;color:#fff;}
+
+.btn-twitter {background:#14d5f2;color:#fff;font-size:16px;}
+.btn-twitter:hover {background:#31dff9;color:#fff;}
+
+.btn-google {background:#e44124;color:#fff;font-size:16px;}
+.btn-google:hover {background:#f34349;color:#fff;}
+
+/*===07.Subscribe===*/
+.xpose-subscribe {width:100%;height:220px;background:#e44124;}
+.xpose-sub {padding:0;}
+.x-subscribe-right {
+	background:#2b3243;
+	height:220px;
+	margin:0;
+	padding:0;
+}
+.x-subscribe-left {
+	text-align:right;
+	color:#fff;
+	padding-right:80px;
+	
+}
+.x-subscribe-left h6 {
+	font-size:50px;
+	margin:0;
+	padding-top:70px;
+	text-transform:uppercase;
+}
+
+.xpose-sub-form {width:470px;border-bottom:1px solid #475067;margin-left:80px;margin-top:80px;}
+.xpose-sub-form input[type=text] {
+	background:transparent;
+	border:0;
+	height:44px;
+	color:#fff;
+	outline:none;
+	width:350px;
+	font-size:16px;
+}
+.xpose-sub-form button[type=submit] {
+	float:right;
+	height:44px;
+	border:0;
+	background:#2b3243;
+	color:#fff;
+	outline:none;
+}
+.xpose-sub-form button[type=submit]:hover {
+	color:#e44124;
+}
+.status-message {
+	color: #e44124;
+    margin-left: 80px;
+    font-size: 13px;
+}
+
+/*===08.Google Map===*/
+.xpose-gmaps {width:100%;height:440px;background:#fff;}
+#map {
+	width:100%;
+	height:440px;
+}
+
+/*===09.Contact Us===*/
+.xpose-contact{width:100%;height:700px;background:#ffffff;}
+.xpose-contact-form {width:440px;margin-left:auto;margin-right:auto;margin-top:50px;}
+.xpose-contact-form input[type=text] {
+	width:100%;
+	height:50px;
+	border:1px solid #ecedee;
+	background:#fbfbfb;
+	margin-top:20px;
+	outline:none;
+	padding:10px;
+}
+.xpose-contact-form textarea {
+	width:100%;
+	height:150px;
+	border:1px solid #ecedee;
+	background:#fbfbfb;
+	margin-top:20px;
+	outline:none;
+	padding:10px;
+	resize:none;
+}
+.xpose-contact-form button[type=submit] {
+	width:100%;
+	height:50px;
+	background:#e44124;
+	border:0;
+	color:#fff;
+	text-align:center;
+	font-size:16px;
+	font-weight:600;
+	margin-top:10px;
+	outline:none;
+	text-transform:uppercase;
+	letter-spacing:0.8px;
+}
+.status-message-contact {
+	text-align:center;
+	font-size:13px;
+	color:red;
+	width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+
+
+/*===10.Footer===*/
+.xpose-footer {width:100%;height:234px;background:#f8f8f8;text-align:center;position:relative;}
+.xpose-footer i {font-size:28px;padding-top:60px;}
+.xpose-footer-method {font-size:28px;margin:0;margin-top:10px;text-transform:uppercase;}
+.xpose-footer-details {font-size:15px;color:#e44124;margin:0;}
+.xpose-footer-details a {color:#e44124;}
+.xpose-footer-details a:hover {text-decoration:none;}
+.backtotop {width:52px;height:60px;position:absolute;top:-30px;left:50%;z-index:99;-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);transform: translateX(-50%);}
+
+
