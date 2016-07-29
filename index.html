@@ -28,6 +28,31 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <!-- == End CSS Files == !-->
+
+<!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, r;
+    e = 3e5, r = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + r + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.2.0'
+drift.load('trts2r8v93xr')
+</script>
+<!-- End of Async Drift Code -->
 </head>
 
 <body>
@@ -137,43 +162,8 @@
 	</div>
 	<!--End Subscribe!-->
 	
-	<!--Begin Contact!-->
-	<div id="contact" class="xpose-contact">
-		<div class="container wow fadeIn" data-wow-duration="2s">
-			<!--Begin Contact Title!-->
-			<div class="row xpose-title-middle">
-				<h3>Contact <span class="semibold xpose-red">Us</span></h3>
-				<span class="title-description-middle">Feel free to get in touch</span>
-				<span class="title-middle">Contact us</span>
-			</div>
-			<!--End Contact Title!-->
-			<div class="row">
-			<div class="contact-form">
-			 <form class="xpose-contact-form" action="inc/sendmail.php" method="post">
-                       
-                          <div class="control-name">
-                            <input id="name" type="text" name="name" placeholder="Your Name">
-                          </div>
-                          <div class="control-email">
-                            <input id="email" type="text" name="email" placeholder="Your E-mail">
-                          </div>
-                          <div class="control-message">
-                            <textarea id="message" name="message" placeholder="Your Message"></textarea>
-                          </div>
-                          <div class="control-submit">
-                            <button type="submit">Send Message</button>
-                          </div>
-            </form>
-            </div>
-            <span class="status-message-contact"></span>
-			</div>
-		</div>
-	</div>
-	<!--End Contact!-->
-	
 	<!--Begin Footer!-->
 	<div class="xpose-footer">
-		<div class="backtotop"><a href="#home"><img class="footer-logo" alt="Back to top" src="images/logo.png" /></a></div>
 		<div class="container">
 			<div class="col-md-4 wow fadeIn">
 				<i class="fa fa-facebook"></i>
